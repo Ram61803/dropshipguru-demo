@@ -2,7 +2,7 @@
  * Centralized route definitions for the Seller Central demo platform.
  */
 export const routes = {
-  home: "/dashboard",
+  home: "/",
   seller: {
     dashboard: "/dashboard",
     inventory: "/dashboard/inventory",

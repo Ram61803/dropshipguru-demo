@@ -1,7 +1,6 @@
-import { redirect } from "next/navigation";
+import { PlatformSelector } from "@/components/platform/platform-selector";
 
-import { routes } from "@/config/routes";
-
-export default function RootPage() {
-  redirect(routes.seller.dashboard);
+/** Platform selector homepage — must not redirect. Amazon demo lives at /dashboard via /amazon. */
+export default function HomePage() {
+  return <PlatformSelector />;
 }
