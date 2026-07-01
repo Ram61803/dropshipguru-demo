@@ -1,6 +1,5 @@
-import { PlatformSelector } from "@/components/platform/platform-selector";
+import { LoginPage } from "@/components/auth/login-page";
 
-/** Platform selector homepage — must not redirect. Amazon demo lives at /dashboard via /amazon. */
 export default function HomePage() {
-  return <PlatformSelector />;
+  return <LoginPage />;
 }
